@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: 'Strait';
 }
 
 header {
@@ -12,7 +12,7 @@ header {
 }
 
 nav li {
-    font-family: 'raleway', sans-serif;
+    font-family: 'Strait', sans-serif;
     color: #fff;
     font-weight: 600;
     font-size: 12px;
@@ -42,7 +42,7 @@ main {
 
 main h1 {
     color: #333;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Strait', sans-serif;
     font-weight: 600;
     font-size: 70px;
     margin-top: 0px;
@@ -61,7 +61,7 @@ main h1 {
 .btn-main {
     background-color: #333;
     color: #fff;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Strait', sans-serif;
     font-weight: 600;
     font-size: 18px;
     letter-spacing: 1.3px;
@@ -79,7 +79,7 @@ footer {
 }
 
 footer p {
-    font-family: 'raleway', sans-serif;
+    font-family: 'Strait', sans-serif;
     color: #fff;
     font-weight: 600;
     font-size: 12px;
