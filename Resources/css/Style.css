@@ -52,7 +52,8 @@ main h1 {
   }
 
 .container {
-    background-image: url('file:///C:/Banshee/Projects/Banshee/Resources/img/Snow.jpg');
+    background-image: url('file:///C:/Projects/Banshee/Resources/img/Snow.jpg');
+    opacity: .5x;
     margin: 0 auto;
     padding: 10px;
     text-align: center;
@@ -82,7 +83,7 @@ footer p {
     font-family: 'Strait', sans-serif;
     color: #fff;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 24px;
     display: inline-block;
     text-align: center;
     padding: 2px;
@@ -93,8 +94,10 @@ footer p {
 a:visited {
     color: #fff;
     text-decoration: none;
+    font-size: 24px;
 }
 
 a {
     text-decoration: none;
+    color: #fff;
 }
