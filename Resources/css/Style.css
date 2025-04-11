@@ -15,11 +15,11 @@ nav li {
     font-family: 'Strait', sans-serif;
     color: #fff;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 24px;
     display: inline-block;
     width: 100px;
     text-align: center;
-    padding: 2px;
+    padding: 10px;
 }
 
 nav li:hover {
@@ -52,8 +52,7 @@ main h1 {
   }
 
 .container {
-    background-image: url('file:///C:/Projects/Banshee/Resources/img/Snow.jpg');
-    opacity: .5x;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('file://C:/Projects/Banshee/Resources/img/Snow.jpg');
     margin: 0 auto;
     padding: 10px;
     text-align: center;
@@ -86,7 +85,7 @@ footer p {
     font-size: 24px;
     display: inline-block;
     text-align: center;
-    padding: 2px;
+    padding: 10px;
     margin: 10px;
 }
 
