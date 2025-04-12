@@ -30,6 +30,8 @@ banner h1 {
 banner a {
     color: white;
     text-decoration: none;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 banner a:hover {
@@ -50,21 +52,18 @@ banner p {
     background-color: #fff;
 }
 
-.siteNav li, .siteHeader li {
+.siteNav li a, .siteHeader li a {
+    color: black;
+    text-decoration: none;
     font-size: 14px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'Roboto';
 }
 
-.siteNav li:hover , .siteHeader li:hover {
+.siteNav li a:hover , .siteHeader li a:hover {
     border-bottom: solid 2px black;
     padding-bottom: 8px;
-}
-
-.siteNav li a, .siteHeader li a {
-    color: black;
-    text-decoration: none;
 }
 
 .siteNav *, .siteHeader * {
@@ -106,15 +105,70 @@ banner p {
 
 main {
     position: relative;
-    top: 202px;
-    width: 100%;
+    top: 152px;
+}
+
+main.subpage {
+    position: relative;
+    top: 197px;
 }
 
 main h2 {
-    padding-left: 30px;
+    padding: 30px;
+    margin: 0px;
+}
+
+.btn-main {
+    padding: 20px;
+    background-color: #444443;
+    display: inline-block;
+    padding: 25px;
+    color: white;
+    font-family: 'Strait';
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 0px;
+    margin-bottom: 120px;
+}
+
+a.btn-main:hover {
+    color: #d1bf77;
+}
+
+.jumbotron {
+    background: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url('C:/Projects/Banshee/Resources/img/Progress.JPG');
+    background-size: contain;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 152px;
+    width: 100%;
+}
+
+.jumbotron h1 {
+    text-transform: uppercase;
+    font-size: 100px;
+    padding: 80px;
 }
 
 ul {
     padding-inline-start: 0px;
     margin-block: 0px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: #444443;
+    height: 60px;
+    width: 100%;
+}
+
+footer p {
+    font-family: 'Strait';
+    font-size: 18px;
+    color: white;
+    padding-left: 30px;
 }
