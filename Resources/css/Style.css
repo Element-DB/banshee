@@ -1,106 +1,120 @@
 body {
     margin: 0px;
     font-family: 'Strait';
+    background-color: #E8E6DF;
 }
 
-header {
+banner {
     background-color: #444443;
+    color: #fff;
     position: fixed;
     top: 0px;
     width: 100%;
     z-index: 1;
+    padding: 0px 20px;
+    height: 100px;
 }
 
-nav li {
-    font-family: 'Strait', sans-serif;
-    color: #fff;
-    font-weight: 600;
-    font-size: 24px;
+banner * {
     display: inline-block;
-    width: 100px;
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
+    line-height: 100px;
+    padding-left: 20px;
+    padding-right: 30px;
+    margin: 0px;
 }
 
-.snow {
-    opacity: .2;
+banner h1 {
+    font-size: 40px;
+}
+
+banner a {
+    color: white;
+    text-decoration: none;
+}
+
+banner a:hover {
+    color:rgba(255, 255, 255, 0.863);
+}
+
+banner p {
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.siteNav , .siteHeader {
     position: fixed;
-    top: 0px;
-    z-index: -1;
+    top: 100px;
+    width: 100%;
+    height: 50px;
+    border-bottom: solid 2px gray;
+    background-color: #fff;
+}
+
+.siteNav li, .siteHeader li {
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Roboto';
+}
+
+.siteNav li:hover , .siteHeader li:hover {
+    border-bottom: solid 2px black;
+    padding-bottom: 8px;
+}
+
+.siteNav li a, .siteHeader li a {
+    color: black;
+    text-decoration: none;
+}
+
+.siteNav *, .siteHeader * {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+    margin-right: 20px;
+}
+
+.siteNav h3, .siteHeader h3 {
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+.siteHeader {
+    position: fixed;
+    top: 152px;
+    height: 45px;
+    border-bottom: 0px;
+}
+
+.siteHeader li {
+    font-size: 14px;
+}
+
+.siteHeader h3 {
+    font-size: 18px;
+    padding-left: 20px;
+    line-height: 45px;
+}
+
+
+.siteNav img {
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    margin-left: 20px;
 }
 
 main {
     position: relative;
-    top: 79px;
-}
-
-main h1 {
-    color: #333;
-    font-family: 'Strait', sans-serif;
-    font-weight: 900;
-    font-size: 90px;
-    padding: 90px;
-    text-transform: uppercase;
-  }
-
-.container {
-    background: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url('file://C:/Projects/Banshee/Resources/img/Progress.JPG');
-    background-size: contain;
-    margin: 0 auto;
-    padding: 10px;
-    text-align: center;
-}
-
-.btn-main {
-    display: inline-block;
-    background-color: #333;
-    color: #fff;
-    font-family: 'Strait', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    letter-spacing: 1.3px;
-    padding: 20px;
-    margin-bottom: 70px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.btn-main:hover {
-    color:#d1bf77;
-}
-
-footer {
-    position: fixed;
-    bottom: 0px;
-    background-color: #444443;
+    top: 202px;
     width: 100%;
-    z-index: 1;
 }
 
-footer p {
-    font-family: 'Strait', sans-serif;
-    color: #fff;
-    font-weight: 600;
-    font-size: 24px;
-    display: inline-block;
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
+main h2 {
+    padding-left: 30px;
 }
 
-
-a {
-    text-decoration: none;
-    color: #fff;
-}
-
-a:hover {
-    color:#d1bf77;
-}
-
-a:visited {
-    color: #fff;
-    text-decoration: none;
-    font-size: 24px;
+ul {
+    padding-inline-start: 0px;
+    margin-block: 0px;
 }
