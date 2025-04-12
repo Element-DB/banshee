@@ -137,7 +137,7 @@ a.btn-main:hover {
 }
 
 .jumbotron {
-    background: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url('C:/Projects/Banshee/Resources/img/Progress.JPG');
+    /* background: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url('C:/Projects/Banshee/Resources/img/Progress.JPG'); */
     background-size: contain;
     margin: 0 auto;
     padding: 10px;
