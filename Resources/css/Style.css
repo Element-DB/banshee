@@ -20,12 +20,7 @@ nav li {
     width: 100px;
     text-align: center;
     padding: 10px;
-}
-
-nav li:hover {
-    border: 2px gray solid;
-    border-radius: 3px;
-    padding: 0px;
+    cursor: pointer;
 }
 
 .snow {
@@ -37,37 +32,42 @@ nav li:hover {
 
 main {
     position: relative;
-    top: 51px;
+    top: 79px;
 }
 
 main h1 {
     color: #333;
     font-family: 'Strait', sans-serif;
-    font-weight: 600;
-    font-size: 70px;
-    margin-top: 0px;
-    padding-top: 80px;
-    margin-bottom: 80px;
+    font-weight: 900;
+    font-size: 90px;
+    padding: 90px;
     text-transform: uppercase;
   }
 
 .container {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('file://C:/Projects/Banshee/Resources/img/Snow.jpg');
+    background: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url('file://C:/Projects/Banshee/Resources/img/Progress.JPG');
+    background-size: contain;
     margin: 0 auto;
     padding: 10px;
     text-align: center;
 }
 
 .btn-main {
+    display: inline-block;
     background-color: #333;
     color: #fff;
     font-family: 'Strait', sans-serif;
     font-weight: 600;
     font-size: 18px;
     letter-spacing: 1.3px;
-    padding: 16px 40px;
+    padding: 20px;
+    margin-bottom: 70px;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.btn-main:hover {
+    color:#d1bf77;
 }
 
 footer {
@@ -90,13 +90,17 @@ footer p {
 }
 
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color:#d1bf77;
+}
+
 a:visited {
     color: #fff;
     text-decoration: none;
     font-size: 24px;
-}
-
-a {
-    text-decoration: none;
-    color: #fff;
 }
